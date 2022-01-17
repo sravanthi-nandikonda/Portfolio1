@@ -21,10 +21,10 @@ body{
 
 /* About Image */
 #aboutimg{
-    background-image: url(images/abt.JPG);
+    background-image: url(images/abt.jpg);
     min-height: 520px;
     background-position: left center;
-    background-size: 40% 40%;
+    background-size: 40% 90%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
