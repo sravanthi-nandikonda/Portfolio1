@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: black;
+}
+/* Home image */
+#home{
+    background-image: url(images/bg.JPG);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* About Image */
+#aboutimg{
+    background-image: url(images/abt.JPG);
+    min-height: 520px;
+    background-position: left center;
+    background-size: 40% 90%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/* Card */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+}
+
+/* Portfolio */
+#img1{
+    background-image: url(images/img1.jpg);
+    min-height: 300px;
+    background-position: left center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img2{
+    background-image: url(images/img2.jpg);
+    min-height: 300px;
+    background-position: right center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img3{
+    background-image: url(images/img3.jpg);
+    min-height: 300px;
+    background-position: left center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img4{
+    background-image: url(images/img4.jpg);
+    min-height: 300px;
+    background-position: right center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img11{
+    background-image: url(images/img11.jpg);
+    min-height:300px;
+    background-position: left center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img21{
+    background-image: url(images/img21.jpg);
+    min-height: 300px;
+    background-position: right center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img31{
+    background-image: url(images/img31.jpg);
+    min-height: 300px;
+    background-position: left center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#img41{
+    background-image: url(images/img41.jpg);
+    min-height: 300px;
+    background-position: right center;
+    background-size: 40% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.card-img-top{
+    height: auto;
+    object-fit: cover;
+    width:auto;
+    
+}
